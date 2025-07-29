@@ -172,17 +172,17 @@ li {
 
 
 
-.projects {
+#projects {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
 }
 
-.projects .sub-container {
+#projects .sub-container {
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(2, 1fr); 
 }
 
-.trending .sub-container {
+#trending .sub-container {
     display: flex;
     flex-direction: column;
     align-items: start;
