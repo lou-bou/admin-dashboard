@@ -168,9 +168,9 @@ li {
     grid-row: 2 / 5;
     display: grid;
     grid-template: 1fr 1fr / 2fr 1fr;
+    gap: 10px;
+    padding: 20px;
 }
-
-
 
 #projects {
     grid-column: 1 / 2;
@@ -179,7 +179,26 @@ li {
 
 #projects .sub-container {
     display: grid;
-    grid-template: repeat(3, 1fr) / repeat(2, 1fr); 
+    grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+    gap: 10px;
+}
+
+.project {
+    height: 200px;
+    background: white;
+    border-radius: 10px;
+}
+
+#announcements .sub-container, #trending .sub-container {
+    background: white;
+    border-radius: 10px;
+}
+
+#announcements .sub-container {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 #trending .sub-container {
@@ -198,8 +217,4 @@ li {
 
 .user {
     font-size: 1em;
-}
-
-.sub-container {
-    background: white;
 }
