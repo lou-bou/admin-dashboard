@@ -1,3 +1,5 @@
+/* General */
+
 * {
     padding: 0;
     margin: 0;
@@ -10,6 +12,12 @@
 
 li {
     list-style-type: none;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
 }
 
 /* sidebar */
@@ -75,8 +83,6 @@ li {
     gap: 10px;
 }
 
-
-
 /* header */
 
 .header {
@@ -87,12 +93,7 @@ li {
 }
 
 .header * {
-    
-}
-
-.avatar {
-    width: 60px;
-    height: 60px;
+    border: black 2px solid;
 }
 
 .header > div {
@@ -113,7 +114,7 @@ li {
 #search {
     display: flex;
     gap: 15px;
-    padding-left: 40px;
+    margin-left: 40px;
 }
 
 #search-bar {
@@ -121,6 +122,12 @@ li {
     width: 700px;
     height: 30px;
     border-radius: 30px;
+}
+
+#profile {
+    display: flex;
+    gap: 30px;
+    margin-right: 60px;
 }
 
 /* main content */
