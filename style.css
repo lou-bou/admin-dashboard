@@ -93,7 +93,7 @@ li {
 }
 
 .header * {
-    border: black 2px solid;
+    
 }
 
 .header > div {
@@ -128,6 +128,17 @@ li {
     display: flex;
     gap: 30px;
     margin-right: 60px;
+}
+
+#greeting {
+    display: flex;
+    gap: 15px;
+    margin-left: 40px;
+}
+
+#greeting p:last-child {
+    font-size: 1.5em;
+    padding-top: 2px;
 }
 
 /* main content */
