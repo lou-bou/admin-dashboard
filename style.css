@@ -8,6 +8,10 @@
     grid-template: 1fr 5fr / 1.5fr 5fr;
 }
 
+li {
+    list-style-type: none;
+}
+
 /* sidebar */
 
 .sidebar {
@@ -78,6 +82,12 @@
 .header {
     background: white;
     grid-column: 2 / 5;
+    display: flex;
+    flex-direction: column;
+}
+
+.header * {
+    
 }
 
 .avatar {
@@ -85,10 +95,32 @@
     height: 60px;
 }
 
+.header > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header > div > div {
+    display: flex;
+    align-items: center;
+}
+
+.header .icon {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+#search {
+    display: flex;
+    gap: 15px;
+    padding-left: 40px;
+}
+
 #search-bar {
     background: lightgray;
-    width: 300px;
+    width: 700px;
     height: 30px;
+    border-radius: 30px;
 }
 
 /* main content */
