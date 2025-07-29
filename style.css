@@ -1,9 +1,13 @@
-
+.container {
+    display: grid;
+    grid-template: 1fr 5fr / 1fr 5fr;
+}
 
 /* sidebar */
 
 .sidebar {
     background: black;
+    grid-row: 1 / 5;
 }
 
 .sidebar h1, .sidebar p {
@@ -14,6 +18,7 @@
 
 .header {
     background: white;
+    grid-column: 2 / 5;
 }
 
 .avatar {
@@ -31,6 +36,8 @@
 
 .main-content {
     background: lightgray;
+    grid-column: 2 / 5;
+    grid-row: 2 / 5;
 }
 
 .sub-container {
