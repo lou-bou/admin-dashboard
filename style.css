@@ -1,0 +1,18 @@
+
+/* sidebar */
+
+.sidebar {
+    background: black;
+}
+
+.sidebar h1, .sidebar p {
+    color: white;
+}
+
+.header {
+    background: white;
+}
+
+.main-content {
+    background: lightgray;
+}
